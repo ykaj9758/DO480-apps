@@ -1,7 +1,7 @@
 Kind: Kustomization
 bases:
 - ../../base
-nameSuffix: "-apac"
+nameSuffix: "-emea"
 images:
   - name: mysql
     newName: registry.redhat.io/rhel8/mysql-80
